@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ISceneGraph/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ISceneGraph.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ISceneGraph.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ISceneGraph/1.0.0": {
+      "type": "project",
+      "path": "../ISceneGraph/ISceneGraph.csproj",
+      "msbuildProject": "../ISceneGraph/ISceneGraph.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ISceneGraph >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/gavinadams/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/gavinadams/Projects/ISceneGraph/SceneGraph/SceneGraph.csproj",
+      "projectName": "SceneGraph",
+      "projectPath": "/Users/gavinadams/Projects/ISceneGraph/SceneGraph/SceneGraph.csproj",
+      "packagesPath": "/Users/gavinadams/.nuget/packages/",
+      "outputPath": "/Users/gavinadams/Projects/ISceneGraph/SceneGraph/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/gavinadams/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/gavinadams/Projects/ISceneGraph/ISceneGraph/ISceneGraph.csproj": {
+              "projectPath": "/Users/gavinadams/Projects/ISceneGraph/ISceneGraph/ISceneGraph.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

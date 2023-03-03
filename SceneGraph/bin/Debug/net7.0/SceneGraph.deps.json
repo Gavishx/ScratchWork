@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SceneGraph/1.0.0": {
+        "dependencies": {
+          "ISceneGraph": "1.0.0"
+        },
+        "runtime": {
+          "SceneGraph.dll": {}
+        }
+      },
+      "ISceneGraph/1.0.0": {
+        "runtime": {
+          "ISceneGraph.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SceneGraph/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ISceneGraph/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
