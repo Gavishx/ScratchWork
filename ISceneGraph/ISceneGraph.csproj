@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>PAssignment2</AssemblyName>
-    <RootNamespace>adams.SceneGraph</RootNamespace>
+    <RootNamespace>Adams.SceneGraph</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

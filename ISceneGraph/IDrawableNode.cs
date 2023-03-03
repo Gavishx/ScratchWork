@@ -1,6 +1,6 @@
-﻿namespace adams.SceneGraph
+﻿namespace Adams.SceneGraph
 {
-	public interface IDrawableNode
+	public interface IDrawableNode : ISceneNode
 	{
 		void Draw();
 	}

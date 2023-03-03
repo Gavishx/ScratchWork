@@ -1,4 +1,4 @@
-﻿namespace adams.SceneGraph
+﻿namespace Adams.SceneGraph
 {
 	public interface ISceneNode
 	{

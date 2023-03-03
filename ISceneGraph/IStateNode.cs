@@ -1,7 +1,7 @@
-﻿namespace adams.SceneGraph
+﻿namespace Adams.SceneGraph
 {
-    public interface IStateNode
-	{
+    public interface IStateNode : ISceneNode
+    {
         void Apply();
         void UnApply();
     }

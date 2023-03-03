@@ -1,7 +1,7 @@
-﻿namespace adams.SceneGraph
+﻿namespace Adams.SceneGraph
 {
-    public interface IVisitor
-	{
+    public interface IVisitor : ISceneNode
+    {
         void PreVisit(IDrawableNode drawable);
         void PreVisit(ITransformNode transform);
         void PreVisit(IStateNode state);
