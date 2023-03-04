@@ -16,3 +16,8 @@
 /Users/gavinadams/Projects/ISceneGraph/SceneGraph/obj/Debug/net7.0/SceneGraph.pdb
 /Users/gavinadams/Projects/ISceneGraph/SceneGraph/obj/Debug/net7.0/SceneGraph.genruntimeconfig.cache
 /Users/gavinadams/Projects/ISceneGraph/SceneGraph/obj/Debug/net7.0/ref/SceneGraph.dll
+C:\Users\class\Source\Repos\Gavishx\ScratchWork\SceneGraph\obj\Debug\net7.0\SceneGraph.csproj.AssemblyReference.cache
+C:\Users\class\Source\Repos\Gavishx\ScratchWork\SceneGraph\obj\Debug\net7.0\SceneGraph.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\class\Source\Repos\Gavishx\ScratchWork\SceneGraph\obj\Debug\net7.0\SceneGraph.AssemblyInfoInputs.cache
+C:\Users\class\Source\Repos\Gavishx\ScratchWork\SceneGraph\obj\Debug\net7.0\SceneGraph.AssemblyInfo.cs
+C:\Users\class\Source\Repos\Gavishx\ScratchWork\SceneGraph\obj\Debug\net7.0\SceneGraph.csproj.CoreCompileInputs.cache

@@ -1,16 +1,16 @@
 ﻿using Adams.SceneGraph;
 namespace adams.SceneGraphCore
 {
-	class Sphere : DrawableNodeBase
+	class Terrain : DrawableNodeBase
 	{
-        public Sphere(string name) : base(name)
+        public Terrain(string name) : base(name)
         {
 
         }
 
         public override void Draw()
         {
-            System.Console.WriteLine("Drawing a Sphere...");
+            System.Console.WriteLine("Drawing terrain...");
         }
     }
 }

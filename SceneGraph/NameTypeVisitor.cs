@@ -1,9 +1,9 @@
 ﻿using Adams.SceneGraph;
 namespace adams.SceneGraphCore
 {
-	public class PrintVisitor : IVisitor
+	public class NameTypeVisitor : IVisitor
 	{
-		public PrintVisitor()
+		public NameTypeVisitor()
 		{
 		}
 
