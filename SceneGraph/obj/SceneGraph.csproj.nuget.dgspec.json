@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\class\\Source\\Repos\\ScratchWork\\SceneGraph\\SceneGraph.csproj": {}
+    "C:\\Users\\class\\source\\repos\\ScratchWork\\SceneGraph\\SceneGraph.csproj": {}
   },
   "projects": {
-    "C:\\Users\\class\\Source\\Repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj": {
+    "C:\\Users\\class\\source\\repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\class\\Source\\Repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj",
+        "projectUniqueName": "C:\\Users\\class\\source\\repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj",
         "projectName": "ISceneGraph",
-        "projectPath": "C:\\Users\\class\\Source\\Repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj",
+        "projectPath": "C:\\Users\\class\\source\\repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj",
         "packagesPath": "C:\\Users\\class\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\class\\Source\\Repos\\ScratchWork\\ISceneGraph\\obj\\",
+        "outputPath": "C:\\Users\\class\\source\\repos\\ScratchWork\\ISceneGraph\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,18 +63,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\class\\Source\\Repos\\ScratchWork\\SceneGraph\\SceneGraph.csproj": {
+    "C:\\Users\\class\\source\\repos\\ScratchWork\\SceneGraph\\SceneGraph.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\class\\Source\\Repos\\ScratchWork\\SceneGraph\\SceneGraph.csproj",
+        "projectUniqueName": "C:\\Users\\class\\source\\repos\\ScratchWork\\SceneGraph\\SceneGraph.csproj",
         "projectName": "SceneGraph",
-        "projectPath": "C:\\Users\\class\\Source\\Repos\\ScratchWork\\SceneGraph\\SceneGraph.csproj",
+        "projectPath": "C:\\Users\\class\\source\\repos\\ScratchWork\\SceneGraph\\SceneGraph.csproj",
         "packagesPath": "C:\\Users\\class\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\class\\Source\\Repos\\ScratchWork\\SceneGraph\\obj\\",
+        "outputPath": "C:\\Users\\class\\source\\repos\\ScratchWork\\SceneGraph\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +96,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\class\\Source\\Repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj": {
-                "projectPath": "C:\\Users\\class\\Source\\Repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj"
+              "C:\\Users\\class\\source\\repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj": {
+                "projectPath": "C:\\Users\\class\\source\\repos\\ScratchWork\\ISceneGraph\\ISceneGraph.csproj"
               }
             }
           }
@@ -127,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
