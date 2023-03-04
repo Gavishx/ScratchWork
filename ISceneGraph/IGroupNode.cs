@@ -1,10 +1,7 @@
-﻿using Adams.SceneGraph;
-using System.Collections.Generic;
-
-namespace Adams.SceneGraph
+﻿namespace Adams.SceneGraph
 {
-	public interface IGroupNode : ISceneNode
-	{
+    public interface IGroupNode : ISceneNode
+    {
         void AddChild(ISceneNode child);
     }
 }

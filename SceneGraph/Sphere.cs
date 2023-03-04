@@ -1,8 +1,7 @@
-﻿using Adams.SceneGraph;
-namespace adams.SceneGraphCore
+﻿namespace Adams.SceneGraphCore
 {
-	class Sphere : DrawableNodeBase
-	{
+    class Sphere : DrawableNodeBase
+    {
         public Sphere(string name) : base(name)
         {
 
