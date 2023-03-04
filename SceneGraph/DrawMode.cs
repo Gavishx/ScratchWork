@@ -3,8 +3,21 @@ namespace adams.SceneGraphCore
 {
     class DrawMode : IStateNode
     {
-        public DrawMode() { }
-        public DrawMode(string name) { }
-        public string Name { get; set; }
-	}
+        public string Name => throw new NotImplementedException();
+
+        public void Accept(IVisitor visitor)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Apply()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UnApply()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

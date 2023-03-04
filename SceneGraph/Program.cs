@@ -1,5 +1,4 @@
-﻿using adams.SceneGraphCore;
-using Adams.SceneGraph;
+﻿using Adams.SceneGraph;
 using Adams.SceneGraphCore;
 
 internal class Program
@@ -8,7 +7,7 @@ internal class Program
     {
         ISceneNode root;
         root = new GroupNode("Root");
-        IVisitor printGraph = new PrintVisitor();
+        IVisitor printGraph = new NameTypeVisitor();
         root.Accept(printGraph);
         ISceneNode node = new Cube("cube");
         (root as GroupNode).AddChild(node);
@@ -16,11 +15,11 @@ internal class Program
         (root as GroupNode).AddChild(node);
         GroupNode snowman = new GroupNode("snowman");
         (root as GroupNode).AddChild(snowman);
-        node = new Cube("Bottom");
+        node = new Sphere("Bottom");
         snowman.AddChild(node);
-        node = new Cube("Middle");
+        node = new Sphere("Middle");
         snowman.AddChild(node);
-        node = new Cube("Top");
+        node = new Sphere("Top");
         snowman.AddChild(node);
         root.Accept(printGraph);
     }

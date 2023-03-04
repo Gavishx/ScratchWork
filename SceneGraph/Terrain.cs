@@ -1,8 +1,7 @@
-﻿using Adams.SceneGraph;
-namespace adams.SceneGraphCore
+﻿namespace Adams.SceneGraphCore
 {
-	class Terrain : DrawableNodeBase
-	{
+    class Terrain : DrawableNodeBase
+    {
         public Terrain(string name) : base(name)
         {
 

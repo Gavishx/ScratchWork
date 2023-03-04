@@ -1,12 +1,12 @@
 ﻿using Adams.SceneGraph;
-namespace adams.SceneGraphCore
+namespace Adams.SceneGraphCore
 {
-	abstract public class DrawableNodeBase : IDrawableNode
-	{
-		public DrawableNodeBase(string name)
-		{
+    abstract public class DrawableNodeBase : IDrawableNode
+    {
+        public DrawableNodeBase(string name)
+        {
             this.Name = name;
-		}
+        }
 
         public string Name
         {

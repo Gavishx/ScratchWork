@@ -1,11 +1,11 @@
 ﻿using Adams.SceneGraph;
-namespace adams.SceneGraphCore
+namespace Adams.SceneGraphCore
 {
-	public class NameVisitor : IVisitor
-	{
-		public NameVisitor()
-		{
-		}
+    public class NameVisitor : IVisitor
+    {
+        public NameVisitor()
+        {
+        }
 
         public string Name => throw new NotImplementedException();
 
@@ -41,7 +41,7 @@ namespace adams.SceneGraphCore
         public void PreVisit(IDrawableNode drawable)
         {
             System.Console.WriteLine(currentIndentation
-                +  "Drawable name: " + drawable.Name);
+                + "Drawable name: " + drawable.Name);
             currentIndentation += indentIncrement;
         }
 
